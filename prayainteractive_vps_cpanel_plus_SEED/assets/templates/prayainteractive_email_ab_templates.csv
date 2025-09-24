@@ -1,7 +1,0 @@
-audience,variant,subject,preheader,html_body,text_body,discount_code,expires_at_iso,utm_campaign,utm_content
-kids,A,Apprendre en s'amusant — VR à l'école,Ateliers interactifs (maths, géo, sciences),<h1>Bonjour {{firstName}},</h1><p>Nous animons des ateliers VR...</p>,Bonjour {{firstName}}, Nous animons des ateliers VR...,PI10,,kids_q4,subject_A
-kids,B,Transformez votre classe en terrain d'exploration,Demo VR gratuite après sélection,<h1>Bonjour {{firstName}},</h1><p>Découvrez nos séances...</p>,Bonjour {{firstName}}, Découvrez nos séances...,PI10,,kids_q4,subject_B
-seniors,A,Bien-être cognitif + physique doux en EHPAD,Animations adaptées PMR,<h1>Bonjour {{firstName}},</h1><p>Des séances douces...</p>,Bonjour {{firstName}}, Des séances douces...,PI10,,seniors_q4,subject_A
-seniors,B,Sourires et mouvement en résidence — VR mobile,Hygiène renforcée incluse,<h1>Bonjour {{firstName}},</h1><p>Nous venons à vous...</p>,Bonjour {{firstName}}, Nous venons à vous...,PI10,,seniors_q4,subject_B
-cse,A,Un moment signature pour votre CSE,Team bonding + QVT + branding,<h1>Bonjour {{firstName}},</h1><p>Créez un évènement...</p>,Bonjour {{firstName}}, Créez un évènement...,PI10,,cse_q4,subject_A
-cse,B,Fédérez vos équipes avec la VR,Réserver une démo après sélection,<h1>Bonjour {{firstName}},</h1><p>Vivez l'instant...</p>,Bonjour {{firstName}}, Vivez l'instant...,PI10,,cse_q4,subject_B

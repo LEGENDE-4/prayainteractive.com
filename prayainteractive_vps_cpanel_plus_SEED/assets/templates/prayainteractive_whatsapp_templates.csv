@@ -1,5 +1,0 @@
-template_name,language,audience,body_text,button_cta
-pi_kids_intro,fr,kids,Bonjour {{1}}, ici prayainteractive 👋 Après sélection de votre audience, nous proposons une démo courte d'atelier VR (maths, géo, sciences). Voulez-vous voir un aperçu vidéo et choisir un créneau ?,Voir la démo
-pi_seniors_intro,fr,seniors,Bonjour {{1}}, ici prayainteractive 👋 Nous proposons des séances VR cognitives + physiques douces, adaptées PMR. Après sélection de votre audience, souhaitez-vous une démo vidéo et un créneau ?,Voir la démo
-pi_cse_intro,fr,cse,Bonjour {{1}}, ici prayainteractive 👋 Un moment signature pour votre CSE (team bonding + QVT). Après sélection de votre audience, voulez-vous une démo et réserver un créneau ?,Réserver
-pi_followup_2w,fr,all,Rebonjour {{1}} 😊 Avez-vous pu regarder la démo ? Nous offrons -10% (code PI10) sur la 1ère séance ce mois-ci. Je peux vous proposer des créneaux ?,Choisir un créneau
