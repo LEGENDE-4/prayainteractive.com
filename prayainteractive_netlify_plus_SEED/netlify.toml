@@ -1,0 +1,12 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+[functions]
+  directory = "netlify/functions"
+  node_bundler = "esbuild"
+[functions."campaigns-run"]
+  schedule = "0 7 * * *"
+[functions."prospects-discover"]
+  schedule = "30 6 * * *"
+[functions."social-queue"]
+  schedule = "0 8 * * *"
