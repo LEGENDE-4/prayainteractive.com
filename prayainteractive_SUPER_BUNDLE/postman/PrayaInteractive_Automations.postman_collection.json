@@ -1,0 +1,81 @@
+{
+  "info": {
+    "name": "PrayaInteractive Automations",
+    "_postman_id": "4f2b2f0c-9c3a-44e1-bb77-automation",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Netlify \u2014 Run Campaigns",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": "{{netlify_base}}/.netlify/functions/campaigns-run"
+      }
+    },
+    {
+      "name": "Netlify \u2014 Prospects Discover",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": "{{netlify_base}}/.netlify/functions/prospects-discover"
+      }
+    },
+    {
+      "name": "Netlify \u2014 Social Queue",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": "{{netlify_base}}/.netlify/functions/social-queue"
+      }
+    },
+    {
+      "name": "Netlify \u2014 Seed Leads (all)",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": "{{netlify_base}}/.netlify/functions/seed-leads?audience=all"
+      }
+    },
+    {
+      "name": "VPS \u2014 Health",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": "{{vps_base}}/health"
+      }
+    },
+    {
+      "name": "VPS \u2014 Run Campaigns",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": "{{vps_base}}/cron/daily-campaigns?secret={{CRON_SECRET}}"
+      }
+    },
+    {
+      "name": "VPS \u2014 Prospects Discover",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": "{{vps_base}}/cron/daily-prospects?secret={{CRON_SECRET}}"
+      }
+    },
+    {
+      "name": "VPS \u2014 Social Queue",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": "{{vps_base}}/cron/daily-social?secret={{CRON_SECRET}}"
+      }
+    },
+    {
+      "name": "VPS \u2014 Seed Leads (all)",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": "{{vps_base}}/seed/leads?audience=all"
+      }
+    }
+  ]
+}
